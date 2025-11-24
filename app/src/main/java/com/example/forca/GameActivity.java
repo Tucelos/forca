@@ -1,4 +1,4 @@
-package com.exemplo.forca;
+package com.example.forca;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
