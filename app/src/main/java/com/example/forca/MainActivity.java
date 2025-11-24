@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Se você criou a RankingActivity, descomente a linha abaixo:
-                startActivity(new Intent(MainActivity.this, RankingActivity.class);
+                startActivity(new Intent(MainActivity.this, RankingActivity.class));
 
                 // Por enquanto mostra uma mensagem rápida
                 //Toast.makeText(MainActivity.this, "Ranking em construção!", Toast.LENGTH_SHORT).show();
