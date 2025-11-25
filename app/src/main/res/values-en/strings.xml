@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="titulo_jogo">HANGMAN GAME</string>
+    <string name="btn_jogar">PLAY</string>
+    <string name="btn_ranking">RANKING</string>
+    <string name="btn_config">SETTINGS</string>
+    <string name="btn_tutorial">TUTORIAL</string>
+    <string name="btn_voltar">Back</string>
+    <string name="btn_chutar">Guess</string>
+    <string name="btn_reiniciar">Restart</string>
+    <string name="btn_salvar">Save and Back</string>
+    <string name="btn_jogar_agora">PLAY NOW</string>
+    <string name="config_titulo">SETTINGS</string>
+    <string name="config_som">Enable Sound/Music</string>
+    <string name="config_cronometro">Timer Mode</string>
+    <string name="config_modo_escuro">Dark Mode</string>
+    <string name="config_fonte">Font Size (Game)</string>
+    <string name="config_idioma">Language</string>
+    <string name="ranking_titulo">TOP 5 PLAYERS</string>
+    <string name="tutorial_titulo">HOW TO PLAY</string>
+    <string name="tutorial_texto">1. The goal is to guess the secret word before being hanged.\n\n2. Type a letter in the field and click \'Guess\'.\n\n3. If correct, the letter appears in the spaces.\n\n4. If wrong, a part of the body is drawn on the gallows.\n\n5. You earn 10 points for a correct guess and lose 5 for a wrong one.\n\n6. The game ends if you complete the word or make 6 mistakes.</string>
+    <string name="msg_digite_nome">Enter your name</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancelar">Cancel</string>
+    <string name="msg_digite_valido">Please enter a name!</string>
+    <string name="msg_game_over">GAME OVER</string>
+    <string name="msg_palavra_era">The word was: %s \nYour final score: %d</string>
+    <string name="msg_venceu">YOU WON! +100 Points</string>
+    <string name="msg_reiniciado">Game Restarted!</string>
+    <string name="msg_config_salvas">Settings saved!</string>
+    <string name="label_pontos">Points: %d</string>
+</resources>
