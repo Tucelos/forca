@@ -70,8 +70,7 @@ Este projeto atende aos requisitos acadêmicos avançados:
 ## 👥 Autores
 
 * **[Tuigg Barcelos]**
-* ---
-*Desenvolvido como requisito parcial para a aprovação na disciplina de Programação para Dispositivos Móveis - 2025.*
+
 
 ---
 *Desenvolvido como requisito parcial para a aprovação na disciplina de Programação para Dispositivos Móveis - 2025.*
