@@ -5,36 +5,38 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    android:background="#E1F5FE"> <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="🏆"
-    android:textSize="60sp"
-    android:layout_marginBottom="20dp"/>
+    android:background="@color/background_menu"> 
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏆"
+        android:textSize="60sp"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Melhor Pontuação"
+        android:text="@string/ranking_titulo"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#000000"/>
+        android:textColor="@color/text_title"/>
 
     <TextView
         android:id="@+id/txtValorRecorde"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
-        android:textSize="80sp"
-        android:textColor="#FF5722"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"/>
+        android:text="Carregando..."
+        android:textSize="20sp"
+        android:textColor="@color/text_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
 
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voltar ao Menu"
+        android:text="@string/btn_voltar"
         android:layout_marginTop="40dp"/>
 
 </LinearLayout>

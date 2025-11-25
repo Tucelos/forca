@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIGURAÇÕES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <Switch
+            android:id="@+id/switchSom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Habilitar Som/Música"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <Switch
+            android:id="@+id/switchCronometro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modo com Cronômetro"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+            
+        <Switch
+            android:id="@+id/switchModoEscuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modo Escuro"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamanho da Fonte (Jogo)"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <SeekBar
+            android:id="@+id/seekTamanhoFonte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="2"
+            android:progress="1"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idioma"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupIdioma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+            <RadioButton
+                android:id="@+id/radioPt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Português"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/radioEn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inglês"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSalvarConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar e Voltar"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnJogarConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOGAR AGORA"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>

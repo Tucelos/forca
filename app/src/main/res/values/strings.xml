@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Forca</string>
+    <string name="titulo_jogo">JOGO DA FORCA</string>
+    <string name="btn_jogar">JOGAR</string>
+    <string name="btn_ranking">RANKING</string>
+    <string name="btn_config">CONFIGURAÇÕES</string>
+    <string name="btn_tutorial">TUTORIAL</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_chutar">Chutar</string>
+    <string name="btn_reiniciar">Reiniciar</string>
+    <string name="btn_salvar">Salvar e Voltar</string>
+    <string name="btn_jogar_agora">JOGAR AGORA</string>
+    <string name="config_titulo">CONFIGURAÇÕES</string>
+    <string name="config_som">Habilitar Som/Música</string>
+    <string name="config_cronometro">Modo com Cronômetro</string>
+    <string name="config_modo_escuro">Modo Escuro</string>
+    <string name="config_fonte">Tamanho da Fonte (Jogo)</string>
+    <string name="config_idioma">Idioma</string>
+    <string name="ranking_titulo">TOP 5 JOGADORES</string>
+    <string name="tutorial_titulo">COMO JOGAR</string>
+    <string name="tutorial_texto">1. O objetivo é adivinhar a palavra secreta antes de ser enforcado.\n\n2. Digite uma letra no campo e clique em \'Chutar\'.\n\n3. Se acertar, a letra aparece nos espaços.\n\n4. Se errar, uma parte do corpo é desenhada na forca.\n\n5. Você ganha 10 pontos por acerto e perde 5 por erro.\n\n6. O jogo acaba se completar a palavra ou errar 6 vezes.</string>
+    <string name="msg_digite_nome">Digite seu nome</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancelar">Cancelar</string>
+    <string name="msg_digite_valido">Por favor, digite um nome!</string>
+    <string name="msg_game_over">GAME OVER</string>
+    <string name="msg_palavra_era">A palavra era: %s \nSua pontuação final: %d</string>
+    <string name="msg_venceu">VOCÊ GANHOU! +100 Pontos</string>
+    <string name="msg_reiniciado">Jogo Reiniciado!</string>
+    <string name="msg_config_salvas">Configurações salvas!</string>
+    <string name="label_pontos">Pontos: %d</string>
 </resources>
